@@ -147,16 +147,16 @@
             </div>
 
             <div class="col-4 mt-5 bg-light p-4 rounded-4">
-                <form action="/action_page.php">
+                <form action="../api/login.php" method="post">
                     <div class="mb-3 mt-5 ms-5 me-5">
                         <label for="username" class="form-label"></label>
-                        <input type="username" class="form-control" id="add" placeholder="ID" name="username">
+                        <input type="username" class="form-control" id="add" placeholder="ID" name="email">
                     </div>
                     <div class="mt-4">
                         <!-- 空白欄=>id pw中間間距 -->
                     </div>
                     <div class="mb-5 ms-5 me-5">
-                        <input type="password" class="form-control" id="pw" placeholder="PASSWORD" name="pswd">
+                        <input type="password" class="form-control" id="pw" placeholder="PASSWORD" name="pwd">
                     </div>
                     <div class="d-flex justify-content-center">
                         <button type="submit" class="btn btn-outline-secondary mb-5 ms-5 me-5 w-100">LOGIN</button>
@@ -164,7 +164,7 @@
 
                     <div class="mb-5" style="display: flex; justify-content: space-around; font-size:12px">
                         <a href="">Forgot your id or password?</a>
-                        <a href="">Creat Account</a>
+                        <a href="reg.php">Creat Account</a>
                     </div>
 
                 </form>
