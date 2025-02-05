@@ -9,65 +9,65 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-    body {
-        background-color: antiquewhite;
-    }
+        body {
+            background-color: antiquewhite;
+        }
 
-    .navbar {
-        background-color: rgb(130, 76, 23);
-        height: 40px;
-        opacity: 0.8;
-        z-index: 1050;
-        /* 設置更高的層級，保證它在其他元素之上 */
-    }
+        .navbar {
+            background-color: rgb(130, 76, 23);
+            height: 40px;
+            opacity: 0.8;
+            z-index: 1050;
+            /* 設置更高的層級，保證它在其他元素之上 */
+        }
 
-    .nav-link {
-        color: antiquewhite;
-    }
+        .nav-link {
+            color: antiquewhite;
+        }
 
-    /* 設定carousel高度 */
-    .carousel-item img {
-        width: 100%;
-        /* 圖片寬度填滿容器 */
-        height: 100%;
-        /* 圖片高度填滿容器 */
-        object-fit: cover;
-        /* 保持圖片比例並裁切 */
-    }
+        /* 設定carousel高度 */
+        .carousel-item img {
+            width: 100%;
+            /* 圖片寬度填滿容器 */
+            height: 100%;
+            /* 圖片高度填滿容器 */
+            object-fit: cover;
+            /* 保持圖片比例並裁切 */
+        }
 
-    #demo {
-        width: 500px;
-        /* 設定寬度為500px */
-        height: 500px;
-        /* 設定高度為500px */
-        margin: 0;
-        /* 使carousel居中 */
-    }
+        #demo {
+            width: 500px;
+            /* 設定寬度為500px */
+            height: 500px;
+            /* 設定高度為500px */
+            margin: 0;
+            /* 使carousel居中 */
+        }
 
-    .knit {
-        width: 500px;
-        /* 設定寬度為500px */
-        height: 500px;
-        /* 設定高度為500px */
-    }
+        .knit {
+            width: 500px;
+            /* 設定寬度為500px */
+            height: 500px;
+            /* 設定高度為500px */
+        }
 
-    span,
-    h5,
-    hr {
-        color: rgb(130, 76, 23);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+        span,
+        h5,
+        hr {
+            color: rgb(130, 76, 23);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
 
-    a {
-        text-decoration: none;
-    }
+        a {
+            text-decoration: none;
+        }
 
-    ::placeholder {
-        font-size: 12px;
-        /* 縮小 placeholder 字體大小 */
-        color: #6c757d;
-        /* 調整顏色 */
-    }
+        ::placeholder {
+            font-size: 12px;
+            /* 縮小 placeholder 字體大小 */
+            color: #6c757d;
+            /* 調整顏色 */
+        }
     </style>
 </head>
 
@@ -147,7 +147,7 @@
             </div>
 
             <div class="col-4 mt-5 bg-light p-4 rounded-4">
-                <form action="/action_page.php">
+                <form action="../api/reg.php" method="post">
                     <div class="mb-3 mt-5 ms-5 me-5">
                         <label for="email" class="form-label">ID</label>
                         <input type="email" class="form-control" id="email"
@@ -253,7 +253,7 @@
     </div>
 
     <script>
-    // JavaScript to show the modal when the page loads
+        // JavaScript to show the modal when the page loads
     </script>
 
 
