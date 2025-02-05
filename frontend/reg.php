@@ -156,7 +156,7 @@
                     <div class="mb-5 ms-5 me-5">
                         <label for="pwd" class="form-label">Password</label>
                         <input type="password" class="form-control" id="pwd"
-                            placeholder="A combination of at least letters/numbers" name="pswd">
+                            placeholder="A combination of at least letters/numbers" name="pwd">
                     </div>
 
                     <div class="d-flex justify-content-center mb-5 mt-3">
