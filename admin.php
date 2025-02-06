@@ -8,7 +8,7 @@
     <link rel="icon" href="./imgs/index/01-logo.ico" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
     <style>
     body {
         background-color: antiquewhite;
@@ -121,14 +121,15 @@
         </div>
     </div>
 
-    <!-- 固定棉花糖圖標 -->
-    <!-- <div class="container-fluid">
-    </div> -->
+    <!-- 空白欄 -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
 
 
-
-
-    <div class="container mt-3">
+    <div class="container mt-5 mb-5">
         <h2>Hover Rows</h2>
         <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
         <table class="table table-hover">
@@ -160,12 +161,19 @@
     </div>
 
 
+    <!-- 空白欄 -->
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
 
 
     <!-- FOOTER -->
     <hr>
     <footer>
-        <div class="container-fluid bd-footer py-4 mt-3">
+
+        <div class="container-fluid bd-footer py-4 ">
             <div class="row justify-content-center">
                 <div class="col-3 mb-3 text-center">
                     <a href="https://www.dinotaeng.com/"
@@ -200,31 +208,8 @@
         </div>
     </footer>
 
-    <!-- 彈出視窗 -->
-    <!-- Modal HTML -->
-    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="welcomeModalLabel">Welcome to DINOTAENG</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    We're glad to have you here! Enjoy browsing our website.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success">
-                        <a href="./shop.html" style="color: white; text-decoration: none;">Go to Shop</a>
-                    </button>
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <script>
-    // JavaScript to show the modal when the page loads
-    </script>
+
 
 
 
